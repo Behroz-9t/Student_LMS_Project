@@ -18,7 +18,7 @@ class LMS(Student):
         Humera=Teacher("Mis Humera",2121)
         Bari=Teacher("Sir Bari",1122)
         Mariam=Teacher("Mis Mariam",1212)
-        Huzaifa=Teacher("Huzaifa",1221)
+        Huzaifa=Teacher("Sir Huzaifa",1221)
         
 
         oop=Course("CS-352","Object Oriented Programming",Humera)
