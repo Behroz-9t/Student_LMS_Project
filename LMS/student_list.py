@@ -76,7 +76,6 @@ class StudentList:
 
     def __str__(self):
         
-        # return "\n".join(str(student) for student in self._students)
         return f"\n{self.list_of_students}\n"
 
 

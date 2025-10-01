@@ -1,5 +1,5 @@
 from course import Course
-from teacher import Teacher
+
 
 
 class CourseList:
@@ -49,26 +49,7 @@ class CourseList:
 
         return f"{self.list_of_courses}"
     
-# c=CourseList()
 
-# Humera=Teacher("Mis Humera",2121)
-# Bari=Teacher("Sir Bari",1122)
-# Mariam=Teacher("Mis Mariam",1212)
-# Huzaifa=Teacher("Huzaifa",1221)
-        
-
-# oop=Course("CS-352","Object Oriented Programming",Humera)
-# dld=Course("CS-354","Digital Logic Design",Bari)
-# ds=Course("CS-358","Discrete Structure",Mariam)
-# la=Course("CS-356","linear Algebra",Huzaifa)
-
-
-# c.add_course(oop)
-# c.add_course(dld)
-# c.add_course(la)
-# c.add_course(ds)
-
-# print(c.get_course)
 
 
 

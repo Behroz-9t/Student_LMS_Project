@@ -14,7 +14,6 @@ class LMS(Student):
 
 
     def app(self):
-        # s=Student(str(input("Enter The name: ")),int(input("Enter the seat number: ")),int(input("Enter The semester: ")))
         
         Humera=Teacher("Mis Humera",2121)
         Bari=Teacher("Sir Bari",1122)

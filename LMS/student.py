@@ -1,5 +1,3 @@
-from course import Course
-from teacher import Teacher
 from person import Person
 from course_list import CourseList
 
@@ -26,11 +24,6 @@ class Student(Person):
     @get_semester.setter
     def set_semester(self,value):
         self._s=value
-
-    
-    
-    # def __str__(self):
-    #     return f"{self.name} of {self.seat_number} and {self.semester} "
 
 
     def __str__(self):
