@@ -9,24 +9,30 @@ Student LMS Project
  Key Activities & Code Modifications
 
  • student.py include a Student class inheriting from a Person class, with attributes like
- student_id and a CourseList object for managing enrolled courses.
+  student_id and a CourseList object for managing enrolled courses. 
+
  • Implemented get_seat , set_seat , get_semester , set_semester methods in the Student
- class.
+  class.
+
  • Created Course class in course.py with attributes for code, title, and teacher
- , including getter and setter methods for code and title.
+  , including getter and setter methods for code and title.
+
  • Developed CourseList class in course_list.py
- to manage list of courses, including methods to add_course, remove_course, and
- search_by_title.
+  to manage list of courses, including methods to add_course, remove_course, and
+  search_by_title.
+
  • Developed StudentList class in student_list.py
- to manage a list of students, including methods to add_student, remove_student
- , and search by name, seat, or semester.
+  to manage a list of students, including methods to add_student, remove_student
+  , and search by name, seat, or semester.
+
  • Modified lms.py to include classes for Student, StudentList, Course, CourseList, and
- Teacher, with methods for adding, removing, and searching students and courses.
+  Teacher, with methods for adding, removing, and searching students and courses.
+
  • Implemented an app method within the LMS
- class to initialize teachers and courses, add them to course lists, and add students to 
- student lists. The
- app method also includes calls to remove_course, search_by_title, remove_by_name
- , and search_by_seat.
+  class to initialize teachers and courses, add them to course lists, and add students to 
+  student lists. The app method also includes calls to remove_course, search_by_title, remove_by_name
+  , and search_by_seat. 
+  
  • main function in lms.py to instantiate the LMS class and call the app method
 
 ### **Classes and Relationships**
